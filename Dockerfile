@@ -1,12 +1,24 @@
-# Tags: latest, 0.16.1-debian-10-r282, 0.16.1, 0-debian-10, 0
+# Tags: latest, 0.16.1-debian-10-r286, 0.16.1, 0-debian-10, 0
 FROM bitnami/jmx-exporter:latest
-FROM bitnami/jmx-exporter:0.16.1-debian-10-r282
+FROM bitnami/jmx-exporter:0.16.1-debian-10-r286
 FROM bitnami/jmx-exporter:0.16.1
 FROM bitnami/jmx-exporter:0-debian-10
 FROM bitnami/jmx-exporter:0
 
 # Tags: _
 FROM bitnami/jmx-exporter:_
+
+# Tags: 0.16.1-debian-10-r285
+FROM bitnami/jmx-exporter:0.16.1-debian-10-r285
+
+# Tags: 0.16.1-debian-10-r284
+FROM bitnami/jmx-exporter:0.16.1-debian-10-r284
+
+# Tags: 0.16.1-debian-10-r283
+FROM bitnami/jmx-exporter:0.16.1-debian-10-r283
+
+# Tags: 0.16.1-debian-10-r282
+FROM bitnami/jmx-exporter:0.16.1-debian-10-r282
 
 # Tags: 0.16.1-debian-10-r281
 FROM bitnami/jmx-exporter:0.16.1-debian-10-r281
@@ -79,18 +91,3 @@ FROM bitnami/jmx-exporter:0.16.1-debian-10-r259
 
 # Tags: 0.16.1-debian-10-r258
 FROM bitnami/jmx-exporter:0.16.1-debian-10-r258
-
-# Tags: 0.16.1-debian-10-r257
-FROM bitnami/jmx-exporter:0.16.1-debian-10-r257
-
-# Tags: 0.16.1-debian-10-r256
-FROM bitnami/jmx-exporter:0.16.1-debian-10-r256
-
-# Tags: 0.16.1-debian-10-r255
-FROM bitnami/jmx-exporter:0.16.1-debian-10-r255
-
-# Tags: 0.16.1-debian-10-r254
-FROM bitnami/jmx-exporter:0.16.1-debian-10-r254
-
-# Tags: 0.16.1-debian-10-r253
-FROM bitnami/jmx-exporter:0.16.1-debian-10-r253
